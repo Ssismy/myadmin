@@ -1,0 +1,8 @@
+.home{
+    flex:4;
+}
+.widge{
+    display: flex;
+    margin:15px 30px; 
+    height:400px;
+}

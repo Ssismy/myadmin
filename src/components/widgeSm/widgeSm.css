@@ -1,0 +1,36 @@
+.widgeSm{
+    flex:1;
+    border-radius: 10px;
+    padding:30px;
+    margin-right: 20px;
+    box-shadow: -7px 13px 43px -3px rgba(0,0,0,0.35);
+    -webkit-box-shadow: -7px 13px 43px -3px rgba(0,0,0,0.35);
+    -moz-box-shadow: -7px 13px 43px -3px rgba(0,0,0,0.35);
+}
+.widgeSmTitle{
+    font-size: 22px;
+    font-weight: 500;
+}
+.widgeSmItem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:20px 0px;
+}
+.widgeSmItemImg{
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+}
+.widgeSmInfoDisplay{
+    display: flex;
+    align-items: center;
+    background-color: lightgrey;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border:none;
+    cursor:pointer;
+}
+.widgeSmInfoText{
+    margin-left: 5px;
+}

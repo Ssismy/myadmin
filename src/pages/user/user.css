@@ -1,0 +1,98 @@
+.user{
+    flex:4;
+    height:600px;
+    margin:20px;
+}
+.createUser{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.createButton{
+    background-color: teal;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.userInfoWrapper{
+    display: flex;
+    height:100%;
+    margin-top: 20px;
+}
+.userInfo{
+    flex:1;
+    border-radius: 10px;
+    padding:30px;
+    margin-right: 20px;
+    box-shadow: -7px 13px 43px -3px rgba(0,0,0,0.35);
+    -webkit-box-shadow: -7px 13px 43px -3px rgba(0,0,0,0.35);
+    -moz-box-shadow: -7px 13px 43px -3px rgba(0,0,0,0.35);
+}
+.userInfoDetail{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.userImage{
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+.accountDetailsTitle{
+    font-size: 18px;
+    font-weight: 500;
+    color:grey;
+}
+.detailList{
+    list-style: none;
+    padding-left: 5px;
+    width:60%;
+}
+.detailListItem{
+    display: flex;
+    align-items: center;
+    margin:20px 0px;
+}
+.userIcon{
+    margin-right: 20px;
+}
+
+.editUserInfo{
+    flex:2;
+    border-radius: 10px;
+    padding:30px;
+    box-shadow: -7px 13px 43px -3px rgba(0,0,0,0.35);
+    -webkit-box-shadow: -7px 13px 43px -3px rgba(0,0,0,0.35);
+    -moz-box-shadow: -7px 13px 43px -3px rgba(0,0,0,0.35);
+}
+.editUserInfoTitle{
+    font-size: 25px;
+}
+.editInfoConainer{
+    display: flex;
+    flex-direction: column;
+    width:40%;
+}
+.editInfoItem{
+    display: flex;
+    flex-direction: column;
+    margin:10px 0px;
+}
+.editInfoInput{
+    border:none;
+    border-bottom: 1px solid black;
+    margin: 10px 0px;
+}
+.editInfoButton{
+    width:80px;
+    background-color: rgb(118, 118, 199);
+    color:white;
+    border:none;
+    padding: 10px 15px;
+    cursor:pointer;
+    margin-top: 20px;
+}
